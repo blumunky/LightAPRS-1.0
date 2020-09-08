@@ -65,7 +65,7 @@ int pathSize=2; // 2 for WIDE1-N,WIDE2-N ; 1 for WIDE2-N
 boolean autoPathSizeHighAlt = true; //force path to WIDE2-N only for high altitude (airborne) beaconing (over 1.000 meters (3.280 feet)) 
 
 //boolean GpsFirstFix=false;
-boolean ublox_high_alt_mode = false;
+boolean ublox_high_alt_mode = true;
 
 static char telemetry_buff[100];// telemetry buffer
 uint16_t TxCount = 1;
